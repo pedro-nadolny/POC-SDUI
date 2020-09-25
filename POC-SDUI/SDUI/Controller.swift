@@ -5,11 +5,12 @@ protocol Controlling: AnyObject {
 }
 
 final class Controller: UIViewController, Controlling {
-    
     let interactor: Interacting
+    let router: Routing
     
-    init(interactor: Interacting) {
+    init(interactor: Interacting, router: Routing) {
         self.interactor = interactor
+        self.router = router
         super.init(nibName: nil, bundle: nil)
     }
     

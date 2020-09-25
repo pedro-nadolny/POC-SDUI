@@ -17,6 +17,7 @@
 		07CE15CF251E682400A1C066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CE15CD251E682400A1C066 /* LaunchScreen.storyboard */; };
 		07CE15DA251E682500A1C066 /* POC_SDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE15D9251E682500A1C066 /* POC_SDUITests.swift */; };
 		07CE15E5251E682500A1C066 /* POC_SDUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE15E4251E682500A1C066 /* POC_SDUIUITests.swift */; };
+		07F32C99251E7521006F2E82 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F32C98251E7521006F2E82 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		07CE15E0251E682500A1C066 /* POC-SDUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-SDUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CE15E4251E682500A1C066 /* POC_SDUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_SDUIUITests.swift; sourceTree = "<group>"; };
 		07CE15E6251E682500A1C066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F32C98251E7521006F2E82 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				0730DBC4251E68B600C19B9D /* Presenter.swift */,
 				0730DBC9251E68BE00C19B9D /* Factory.swift */,
 				0730DBCE251E68C300C19B9D /* View.swift */,
+				07F32C98251E7521006F2E82 /* Router.swift */,
 			);
 			path = SDUI;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				0730DBBB251E68AC00C19B9D /* Controller.swift in Sources */,
 				0730DBCA251E68BE00C19B9D /* Factory.swift in Sources */,
 				0730DBC0251E68B100C19B9D /* Interactor.swift in Sources */,
+				07F32C99251E7521006F2E82 /* Router.swift in Sources */,
 				07CE15C3251E682200A1C066 /* AppDelegate.swift in Sources */,
 				0730DBCF251E68C300C19B9D /* View.swift in Sources */,
 				0730DBC5251E68B600C19B9D /* Presenter.swift in Sources */,

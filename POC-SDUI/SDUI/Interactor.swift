@@ -4,8 +4,7 @@ protocol Interacting {
     
 }
 
-class Interactor: Interacting {
-    
+final class Interactor: Interacting {
     let presenter: Presenting
     
     init(presenter: Presenting) {
